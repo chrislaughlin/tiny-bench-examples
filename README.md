@@ -1,15 +1,24 @@
 # tiny-bench-examples
 
-To install dependencies:
+A few examples of using tiny bench to benchmark different things.  
+
+## Getting Started 
 
 ```bash
 bun install
 ```
 
-To run:
-
+### Loops
 ```bash
-bun run index.ts
+bun run loop.ts
 ```
 
-This project was created using `bun init` in bun v1.0.26. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+### Cache
+```bash
+bun run cache.ts
+```
+
+### Objects
+```bash
+bun run objects.ts
+```
