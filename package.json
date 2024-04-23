@@ -2,6 +2,11 @@
   "name": "tiny-bench-examples",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "loops": "bun run loops.ts",
+    "cache": "bun run cache.ts",
+    "objects": "bun run objects.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -9,6 +14,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "bun": "^1.1.4",
     "tinybench": "^2.8.0"
   }
 }
